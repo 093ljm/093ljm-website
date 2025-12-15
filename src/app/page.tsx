@@ -40,13 +40,14 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-5xl md:text-7xl font-bold mb-8 drop-shadow-lg">
-              靈鷲山水陸空大法會
+            <h1 className="font-bold mb-6 drop-shadow-lg">
+              <div className="text-4xl md:text-6xl lg:text-7xl mb-2">靈鷲山</div>
+              <div className="text-3xl md:text-5xl lg:text-6xl">水陸空大法會</div>
             </h1>
             {/* 優雅的垂直線條分隔設計 */}
             <div className="mb-8">
-              <div className="inline-block bg-white/10 backdrop-blur-md rounded-lg px-8 py-4 border border-white/30">
-                <div className="flex items-center gap-3 text-2xl md:text-3xl font-bold text-white">
+              <div className="inline-block bg-white/10 backdrop-blur-md rounded-lg px-4 md:px-8 py-3 md:py-4 border border-white/30">
+                <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3 text-lg md:text-2xl lg:text-3xl font-bold text-white">
                   <span className="tracking-widest">法界</span>
                   <span className="text-[#d89b3e]">◆</span>
                   <span className="tracking-widest">聖凡</span>
